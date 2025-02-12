@@ -42,8 +42,8 @@ CREATE TABLE IF NOT EXISTS `personel` (
 
 INSERT INTO `personel` (`id`, `kullaniciadi`, `mail`, `sifre`) VALUES
 (1, 'Ornekkullanici', 'ornekkullanici@example.com', '4c7e384bc345a1349c31430b7b66ef58'),
-(8, 'cevrim2', 'ahmet.cevrim@bilgiedu.net', 'd895fd4733590e2fba4bad55545d263e'),
-(6, 'cevrimxe', 'purplecevrim@gmail.com', 'f53b50041aab2d5091ee1a9c272b6275');
+(8, 'cevrim2', 'ahmet.cevrim@bilgiedu.net', ''),
+(6, 'cevrimxe', 'purplecevrim@gmail.com', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
